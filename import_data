@@ -1,0 +1,10 @@
+.read ./queries/create_tables.sql
+.mode csv
+.import ./csv/customers.csv customers 
+.import ./csv/category.csv category
+.import ./csv/employees.csv employees
+.import ./csv/shippers.csv shippers
+.import ./csv/suppliers.csv suppliers
+.import ./csv/products.csv products
+.import ./csv/orders.csv orders
+.import ./csv/order_details.csv order_details
