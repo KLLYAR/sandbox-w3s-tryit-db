@@ -1,8 +1,8 @@
-DROP TABLE order_details;
-DROP TABLE products;
-DROP TABLE orders;
-DROP TABLE suppliers;
-DROP TABLE shippers;
-DROP TABLE employees;
-DROP TABLE category;
-DROP TABLE customers;
+DROP TABLE IF EXISTS order_details;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS suppliers;
+DROP TABLE IF EXISTS shippers;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS category;
+DROP TABLE IF EXISTS customers;

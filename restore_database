@@ -1,3 +1,4 @@
+.read ./queries/drop_tables.sql
 .read ./queries/create_tables.sql
 .mode csv
 .import ./csv/customers.csv customers 
@@ -8,3 +9,4 @@
 .import ./csv/products.csv products
 .import ./csv/orders.csv orders
 .import ./csv/order_details.csv order_details
+.mode column
