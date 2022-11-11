@@ -9,4 +9,4 @@
 .import ./csv/products.csv products
 .import ./csv/orders.csv orders
 .import ./csv/order_details.csv order_details
-.mode column
+.mode table
